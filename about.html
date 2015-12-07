@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Positive Fitness Personal Training Dublin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/positive_fitness.css" rel="stylesheet">
+	
+	<!-- Positive Fitness Icon -->
+  <link rel="shortcut icon" href="/images/pf_icon.png" type="image/png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div id="header">
+						<a href="index.html"><img src="images/fitness2.png" class="img-responsive" alt="Positive Fitness Logo" ></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- NavBar -->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Positive Fitness</a>
+	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+	  <li><a href="index.html">Home</a></li>
+        <li ><a href="testimonials.html">Testimonials </a></li>
+		<li><a href="packages.html">Packages</a></li>
+		<li><a href="workouts.html">Workouts</a></li>
+		<li class="active"><a href="about.html">About Us<span class="sr-only">(current)</span></a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <!--Main Content --> 
+ <div class="container">
+ <div class="col-md-12 column">
+ 	<h2>About Us</h2><br>
+	<br>
+	After completing my Sport Science degree in New Zealand, I set off with a group of friends to London on what Kiwis refer to as their OE - Overseas Experience.
+	It was these initial years in London that shaped my fitness career.  I gained great experience working as an Exercise Specialist in various Blue Chip companies throughout
+	London, such as HSBC, Linklaters, Deutsche Bank, Diageo, GSK and many more.  During this time, I also worked as a mobile Personal Trainer throughout Central London, training
+	a variety of clients ranging in age from 13 through to mid-sixties.  I also gained valuable experience working in an alternative Fitness Centre, which focussed on different
+	ways of training clients.  All of the training revolved around vibration training, balance and mobility work.  It was also during my time in London that I completed
+	the National Strength and Conditioning Association's Certified Strength and Conditioning Specialist (CSCS) qualification.<br>
+	<br>
+	After leaving London, I returned to my native New Zealand for just over a year.  During this time, I had experience working in CityFitness, a new gym chain that was just 
+	expanding.  This gave me a good insight into the commercial side of fitness, after mainly being involved in corporate fitness in London.<br>
+	<br>
+	From New Zealand, I then moved back to the UK, this time living in the North-East.  Over the next few years, I gained experience working as a Personal Trainer in two fitness
+	facilities at the opposite end of the spectrum - a 5000 member Health and Racquet Club, as well as a boutique Personal Training studio.<br>
+	<br>
+	In 2011, I moved to Dublin.  For most of my time here, I have worked out of LA Fitness in Dartry, along with mobile Personal Training.  I'm now settled with two young
+	boys who never fail to keep me on my toes!<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+  </div>
+  </div>
+  <div class = "container">
+  <div class="col-md-12 column">
+  
+  <img src="images/before_and_after.png" class="img-responsive" alt="Before and after photos" style="margin-right:auto; margin-left:auto;">
+  
+  </div>
+  </div>
+  
+	
+ 
+ </div>
+	<br>
+	<br>
+   <div class="container">
+		<div class="col-md-12 column">
+			<div id="footer">Positive Fitness, Palmerston Gardens, Dartry, Dublin 6
+			</div>
+		</div>
+	</div>
+ 
+	<!-- map javascript taken and modified from https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(53.313374, -6.261154),
+          zoom: 14,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+		
+		var marker = new google.maps.Marker({
+		position: mapOptions.center,
+		map: map,
+		title: 'Positive Fitness'
+		});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

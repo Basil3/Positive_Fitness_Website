@@ -1,0 +1,74 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background: -webkit-linear-gradient(#f2f2f2, #ffffff); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#f2f2f2, #ffffff); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#f2f2f2, #ffffff); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#f2f2f2, #ffffff); /* Standard syntax */
+}
+#wrapper { background-color: white; 
+           color: #000066;
+           width: 80%;
+		   margin: 0 auto;
+           min-width: auto;
+} 
+#header {
+		/*background-image: url("../images/fitness2.png"); */
+		max-width: 80%;
+		background-repeat: no-repeat;
+		background-size:100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+#footer {
+         text-align: left;
+         padding: 10px;
+		 background-color: #429CD5;
+		 color:white;
+		 clear: both;
+}
+h1 {margin-bottom: 20px; }
+h2 { color: #429CD5; 
+     font-family: arial, sans-serif;
+}
+
+
+#nav ul { list-style-type: none; 
+                 margin: 0;
+				 padding: 0;
+}
+
+#nav a:link { color: #ffffff; }
+#nav a:visited { color: #ffffff; }
+#nav a:hover { background-color: #74D1F6;
+              color: #ffffff; }
+			  
+
+
+#map-canvas{
+			padding-top:10px;
+			height:300px;
+			vertical-align:top;
+			padding-bottom:10px;
+			
+		/*	background-image: url("../images/background_box.png"); */
+
+			}
+			
+#twitter_feed{
+			
+			max-height:300px;
+			vertical-align:top;
+			margin-left:auto;
+			margin-right:auto;
+			padding-bottom:10px;
+			margin-bottom:10px;
+			/*background-image: url("../images/background_box.png"); */
+			}
+			
+#promotion_box{
+			vertical-align:top;
+			padding-bottom:10px;
+			
+			}
+	
+		

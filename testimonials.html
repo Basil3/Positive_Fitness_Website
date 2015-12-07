@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Positive Fitness Personal Training Dublin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/positive_fitness.css" rel="stylesheet">
+	
+	<!-- Positive Fitness Icon -->
+  <link rel="shortcut icon" href="/images/pf_icon.png" type="image/png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div id="header">
+						<a href="index.html"><img src="images/fitness2.png" class="img-responsive" alt="Positive Fitness Logo" ></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- NavBar -->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Positive Fitness</a>
+	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+	  <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="testimonials.html">Testimonials <span class="sr-only">(current)</span></a></li>
+		<li><a href="packages.html">Packages</a></li>
+		<li><a href="workouts.html">Workouts</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <!--Main Content --> 
+ <div class="container">
+ <div class="col-md-12 column">
+ 	<h2>Testimonials</h2><br>
+	<br>
+	"After losing about 2 stone on my own by changing my diet and exercising in the gym, I found that my usual routine became boring, 
+	I stopped losing weight and my motivation slipped. To make sure I didn't fall back into my old ways, I decided to try out some personal training sessions. 
+	Since I started with Mike I've lost another 2 stone and almost 7 inches off my waist. His sessions are motivating, friendly and really got results. 
+	Not only have I lost weight but my fitness, general heath and well being have improved beyond recognition."<br>
+	<br>
+	<em>Colm</em><br>
+	<br>
+	<br>
+	<br>
+	"Over the years, I had slowly let the weight creep on, and although I was watching what I ate and exercising, I couldn't get the weight back off.
+	I lost almost 3 stone with Mike, and I really enjoyed the sessions!"<br>
+	<br>
+	<em>Katherine</em><br>
+	<br>
+	<br>
+	<br>
+	"With my wedding fast approaching, I needed to lose some serious weight.  After training with Mike 3 times a week, I lost 3 stone, and looked great in my
+	suit on my wedding day."<br>
+	<br>
+	<em>Paul</em><br>
+    <br>
+	<br>
+	<br>
+  </div>
+  </div>
+  <div class = "container">
+  <div class="col-md-12 column">
+  
+  <img src="images/before_and_after.png" class="img-responsive" alt="Before and after photos" style="margin-right:auto; margin-left:auto;">
+  
+  </div>
+  </div>
+  
+	
+ 
+ </div>
+	<br>
+	<br>
+   <div class="container">
+		<div class="col-md-12 column">
+			<div id="footer">Positive Fitness, Palmerston Gardens, Dartry, Dublin 6
+			</div>
+		</div>
+	</div>
+ 
+	<!-- map javascript taken and modified from https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(53.313374, -6.261154),
+          zoom: 14,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+		
+		var marker = new google.maps.Marker({
+		position: mapOptions.center,
+		map: map,
+		title: 'Positive Fitness'
+		});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

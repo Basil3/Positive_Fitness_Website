@@ -1,0 +1,128 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #f2f2f2;
+}
+
+} 
+#header {height:300px;
+		background-image: url("../images/fitness2.png"); 
+		background-position: center;
+		max-width: 80%;
+		background-repeat: no-repeat;
+		background-size:100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+#nav { float: left;
+	   width: 200px;
+	   letter-spacing:0.1em;
+} 
+
+#main_image {height:400px;
+			background-image: url("../images/dumbbells.png"); 
+			background-color: #ffffff;
+           color: #000000;  
+		  
+} 
+
+#bottom_box1 {height:300px;
+		background-color:#429CD5; 
+		width: 32%;
+		margin-right: 10px;
+		margin-bottom:10px;
+		
+}
+
+#bottom_box2 {height:300px;
+		background-color:#429CD5;
+		width: 32%;
+		margin-bottom:10px;
+		margin-right: 10px;
+		
+}
+
+#bottom_box3 {height:300px;
+		background-color:#429CD5; 
+		width: 32%;
+		margin-right: 10px;
+		margin-bottom:10px;
+		
+}
+
+#menu_bar{
+		box-sizing: border-box;
+		width: 30%;
+		float: left;
+
+
+		}
+
+#why_pt { margin: 10px;
+		width:auto;
+        }
+/*
+#bottom_section {
+		background-position:center;
+		float:center;
+}
+*/
+#content {  background-color: #ffffff;
+           color: #000000;
+		  padding: 10px 20px;
+	       overflow: auto;
+			
+} 
+#footer {font-size:70%;
+         text-align: left;
+         padding: 10px;
+		 background-color: #429CD5;
+		 color:white;
+		 clear: both;
+}
+h1 {margin-bottom: 20px; }
+h2 { color: #429CD5; 
+     font-family: arial, sans-serif;
+}
+
+#floatright { margin: 10px;
+             float: right; }
+
+			  
+#enquiry_form{
+			font-family: arial, sans-serif;
+			background-color:#429CD5;
+			font:white;
+			color:white;
+			padding-left:10px;
+			}
+			
+#contact_form{
+			margin: 0px auto;
+			font:white;
+			vertical-align:top;
+			}
+
+#map-canvas{
+			width:auto;
+			height:300px;
+
+			}
+			
+#twitter_feed{
+			width:auto;
+			height:300px;
+			}
+
+			
+#nav a.current
+			{
+			background-color:#1b77b1;
+			}
+			
+#nav a.current:hover { background-color: #74D1F6;
+              color: #ffffff; }
+			  
+			  
+
+			
+			
+		
